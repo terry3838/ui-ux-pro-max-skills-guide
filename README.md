@@ -17,7 +17,21 @@
 
 ## 📚 어떻게 학습해야 할까요? (Step-by-Step 가이드)
 
-무엇부터 봐야 할지 막막하시다면 아래 순서대로 문서를 읽어보시는 것을 추천합니다.
+무엇부터 봐야 할지 막막하시다면 아래의 시각화된 흐름도를 따라가 보세요.
+
+```mermaid
+graph TD
+    A[Step 1. UI 스타일 정하기<br/>:내 서비스 분위기 찾기] --> B[Step 2. 컬러와 폰트 조합하기<br/>:가독성과 브랜드 컬러]
+    B --> C[Step 3. 핵심 컴포넌트 만들기<br/>:버튼, 카드 등 레고블록]
+    C --> D[Step 4. 랜딩 페이지/제품 화면 구성<br/>:전체 레이아웃 조립]
+    D --> E[Step 5. UX 가이드라인 점검<br/>:사용성 최종 테스트]
+    
+    style A fill:#e1f5fe,stroke:#0284c7,stroke-width:2px
+    style B fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style C fill:#fff3e0,stroke:#f9a825,stroke-width:2px
+    style D fill:#fce4ec,stroke:#ef6c00,stroke-width:2px
+    style E fill:#f3e5f5,stroke:#c2185b,stroke-width:2px
+```
 
 1. **[학습 경로 가이드 (01-learning-paths.md)](./01-learning-paths.md)**
    - 가장 먼저 읽어보세요! 주차별로 어떤 순서로 디자인을 기획해야 하는지 전체적인 로드맵을 알려드립니다.

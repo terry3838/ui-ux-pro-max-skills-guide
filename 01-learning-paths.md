@@ -3,6 +3,24 @@
 "디자인, 대체 뭐부터 시작해야 하죠?" 🤯
 막막하신 분들을 위해 준비했습니다. 아래의 3주 완성 로드맵을 따라오시면, 텅 빈 화면에서 시작해 완성도 높은 전문가 수준의 디자인을 얻으실 수 있습니다.
 
+```mermaid
+gantt
+    title 3주 완성 UI/UX 마스터 플랜
+    dateFormat  YYYY-MM-DD
+    axisFormat  %W주차
+    
+    section 1주차: 뼈대와 분위기
+    UI 스타일 결정 (ui-styles.md)       :a1, 2024-01-01, 3d
+    브랜드 컬러/폰트 세팅 (colors-fonts.md)  :a2, after a1, 4d
+    
+    section 2주차: 화면 조립하기
+    전체 레이아웃 구성 (products-landing.md)  :b1, 2024-01-08, 4d
+    컴포넌트 디테일 (components.md) :b2, after b1, 3d
+    
+    section 3주차: 마무리 검수
+    UX/접근성 점검 (ux-guidelines.md)    :c1, 2024-01-15, 7d
+```
+
 ---
 
 ## 🚩 1주차: 뼈대와 분위기 잡기 (기초 공사)
