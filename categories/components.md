@@ -1,121 +1,42 @@
-# 컴포넌트 및 아이콘 (Components)
+# 4️⃣ 컴포넌트 및 아이콘 (Components & Icons)
 
-## 1. 앱 인터페이스
+## 카테고리 소개
+UI를 구성하는 레고 블록들입니다. 버튼, 카드, 표, 아이콘 등을 어떻게 적재적소에 배치하고 설계해야 하는지 알아봅니다. AI에게 특정 요소를 만들어 달라고 할 때 아래의 명칭들을 사용해 보세요.
 
-| 카테고리 | 요소 | 설명 |
-|---|---|---|
+---
 
-## 2. 차트 (Charts)
+## 📱 1. 앱 필수 인터페이스 (App Interface)
 
-| 유형 | 용도 | 설명 |
-|---|---|---|
+화면을 구성할 때 반드시 들어가는 핵심 조각들입니다.
 
-## 3. 아이콘 시스템
+* **히어로 섹션 (Hero Section)**
+  * **용도**: 서비스의 첫인상을 결정하는 최상단 대형 영역.
+  * **설계 포인트**: 시선을 끄는 굵은 메인 카피(제목), 매력적인 이미지, 명확한 가입/시작 버튼(CTA)이 필수입니다.
+* **데이터 카드 (Data Cards)**
+  * **용도**: 상품 정보, 프로필, 통계 수치 등을 네모난 박스 안에 보기 좋게 묶어놓은 형태.
+  * **설계 포인트**: 그림자를 살짝 넣거나 테두리를 주어 배경과 분리시키면 훨씬 깔끔해 보입니다.
+* **모달 창 (Modal / Dialog)**
+  * **용도**: 결제 확인, 경고 메시지, 약관 동의 등 사용자의 '주목'이 강하게 필요할 때 화면 위에 띄우는 팝업.
+  * **설계 포인트**: 모달이 떴을 때는 뒤에 있는 배경을 어둡게 처리(Dim)하여 시선이 분산되지 않게 해야 합니다.
 
-| 카테고리 | 아이콘 | 용도 |
-|---|---|---|
-| Navigation | list | <List size={20} weight="regular" /> |
-| Navigation | arrow-left | <ArrowLeft size={20} weight="regular" /> |
-| Navigation | arrow-right | <ArrowRight size={20} weight="regular" /> |
-| Navigation | caret-down | <CaretDown size={20} weight="regular" /> |
-| Navigation | caret-up | <CaretUp size={20} weight="regular" /> |
-| Navigation | house | <House size={20} weight="regular" /> |
-| Navigation | x | <X size={20} weight="regular" /> |
-| Navigation | arrow-square-out | <ArrowSquareOut size={20} weight="regular" /> |
-| Action | plus | <Plus size={20} weight="regular" /> |
-| Action | minus | <Minus size={20} weight="regular" /> |
-| Action | trash | <Trash size={20} weight="regular" /> |
-| Action | pencil-simple | <PencilSimple size={20} weight="regular" /> |
-| Action | floppy-disk | <FloppyDisk size={20} weight="regular" /> |
-| Action | download-simple | <DownloadSimple size={20} weight="regular" /> |
-| Action | upload-simple | <UploadSimple size={20} weight="regular" /> |
-| Action | copy | <Copy size={20} weight="regular" /> |
-| Action | share | <Share size={20} weight="regular" /> |
-| Action | magnifying-glass | <MagnifyingGlass size={20} weight="regular" /> |
-| Action | funnel | <Funnel size={20} weight="regular" /> |
-| Action | gear | <Gear size={20} weight="regular" /> |
-| Status | check | <Check size={20} weight="regular" /> |
-| Status | check-circle | <CheckCircle size={20} weight="regular" /> |
-| Status | x-circle | <XCircle size={20} weight="regular" /> |
-| Status | warning | <Warning size={20} weight="regular" /> |
-| Status | warning-circle | <WarningCircle size={20} weight="regular" /> |
-| Status | info | <Info size={20} weight="regular" /> |
-| Status | circle-notch | <CircleNotch size={20} weight="regular" className="animate-spin" /> |
-| Status | clock | <Clock size={20} weight="regular" /> |
-| Communication | envelope | <Envelope size={20} weight="regular" /> |
-| Communication | chat-circle | <ChatCircle size={20} weight="regular" /> |
-| Communication | phone | <Phone size={20} weight="regular" /> |
-| Communication | paper-plane-tilt | <PaperPlaneTilt size={20} weight="regular" /> |
-| Communication | bell | <Bell size={20} weight="regular" /> |
-| User | user | <User size={20} weight="regular" /> |
-| User | users | <Users size={20} weight="regular" /> |
-| User | user-plus | <UserPlus size={20} weight="regular" /> |
-| User | sign-in | <SignIn size={20} weight="regular" /> |
-| User | sign-out | <SignOut size={20} weight="regular" /> |
-| Media | image | <Image size={20} weight="regular" /> |
-| Media | video | <Video size={20} weight="regular" /> |
-| Media | play | <Play size={20} weight="regular" /> |
-| Media | pause | <Pause size={20} weight="regular" /> |
-| Media | speaker-high | <SpeakerHigh size={20} weight="regular" /> |
-| Media | microphone | <Microphone size={20} weight="regular" /> |
-| Media | camera | <Camera size={20} weight="regular" /> |
-| Commerce | shopping-cart | <ShoppingCart size={20} weight="regular" /> |
-| Commerce | shopping-bag | <ShoppingBag size={20} weight="regular" /> |
-| Commerce | credit-card | <CreditCard size={20} weight="regular" /> |
-| Commerce | currency-dollar | <CurrencyDollar size={20} weight="regular" /> |
-| Commerce | tag | <Tag size={20} weight="regular" /> |
-| Commerce | gift | <Gift size={20} weight="regular" /> |
-| Commerce | percent | <Percent size={20} weight="regular" /> |
-| Data | chart-bar | <ChartBar size={20} weight="regular" /> |
-| Data | chart-pie | <ChartPie size={20} weight="regular" /> |
-| Data | trend-up | <TrendUp size={20} weight="regular" /> |
-| Data | trend-down | <TrendDown size={20} weight="regular" /> |
-| Data | activity | <Activity size={20} weight="regular" /> |
-| Data | database | <Database size={20} weight="regular" /> |
-| Files | file | <File size={20} weight="regular" /> |
-| Files | file-text | <FileText size={20} weight="regular" /> |
-| Files | folder | <Folder size={20} weight="regular" /> |
-| Files | folder-open | <FolderOpen size={20} weight="regular" /> |
-| Files | paperclip | <Paperclip size={20} weight="regular" /> |
-| Files | link | <Link size={20} weight="regular" /> |
-| Files | clipboard | <Clipboard size={20} weight="regular" /> |
-| Layout | grid-four | <GridFour size={20} weight="regular" /> |
-| Layout | list-bullets | <ListBullets size={20} weight="regular" /> |
-| Layout | columns | <Columns size={20} weight="regular" /> |
-| Layout | arrows-out | <ArrowsOut size={20} weight="regular" /> |
-| Layout | arrows-in | <ArrowsIn size={20} weight="regular" /> |
-| Layout | sidebar | <Sidebar size={20} weight="regular" /> |
-| Social | heart | <Heart size={20} weight="regular" /> |
-| Social | star | <Star size={20} weight="regular" /> |
-| Social | thumbs-up | <ThumbsUp size={20} weight="regular" /> |
-| Social | thumbs-down | <ThumbsDown size={20} weight="regular" /> |
-| Social | bookmark | <Bookmark size={20} weight="regular" /> |
-| Social | flag | <Flag size={20} weight="regular" /> |
-| Device | device-mobile | <DeviceMobile size={20} weight="regular" /> |
-| Device | device-tablet | <DeviceTablet size={20} weight="regular" /> |
-| Device | monitor | <Monitor size={20} weight="regular" /> |
-| Device | laptop | <Laptop size={20} weight="regular" /> |
-| Device | printer | <Printer size={20} weight="regular" /> |
-| Security | lock | <Lock size={20} weight="regular" /> |
-| Security | lock-open | <LockOpen size={20} weight="regular" /> |
-| Security | shield | <Shield size={20} weight="regular" /> |
-| Security | key | <Key size={20} weight="regular" /> |
-| Security | eye | <Eye size={20} weight="regular" /> |
-| Security | eye-slash | <EyeSlash size={20} weight="regular" /> |
-| Location | map-pin | <MapPin size={20} weight="regular" /> |
-| Location | map | <Map size={20} weight="regular" /> |
-| Location | compass | <Compass size={20} weight="regular" /> |
-| Location | globe | <Globe size={20} weight="regular" /> |
-| Time | calendar | <Calendar size={20} weight="regular" /> |
-| Time | arrows-clockwise | <ArrowsClockwise size={20} weight="regular" /> |
-| Time | arrow-counter-clockwise | <ArrowCounterClockwise size={20} weight="regular" /> |
-| Time | arrow-clockwise | <ArrowClockwise size={20} weight="regular" /> |
-| Development | code | <Code size={20} weight="regular" /> |
-| Development | terminal | <Terminal size={20} weight="regular" /> |
-| Development | git-branch | <GitBranch size={20} weight="regular" /> |
-| Development | github-logo | <GithubLogo size={20} weight="regular" /> |
-| Style Config | bold-typography-icon-system | <ArrowRight size={20} weight="regular" color={colors.accent} /> |
-| Style Config | cyberpunk-icon-system | <Lightning size={24} weight="regular" color={colors.accent} /> |
-| Style Config | academia-icon-system | <BookOpen size={22} weight="thin" color={colors.brass} /> |
-| Style Config | web3-bitcoin-icon-system | <TrendUp size={24} weight="regular" color={colors.bitcoinOrange} /> |
-| Guideline | icon-fallback-rules | 当默认列表中没有合适图标时：优先继续从 Phosphor 中选择任何语义更贴切的图标（不必局限于本表列出的图标）。若 Phosphor 也无合适图标，可以改用 Heroicons，并在 UI 代码中保持风格统一（线性或填充、圆角程度、笔画粗细等）。 |
+## 📊 2. 차트와 데이터 시각화 (Charts)
+
+대시보드나 통계 페이지를 만들 때, 어떤 데이터를 어떤 차트로 보여줄지 결정합니다.
+
+* **라인 차트 (Line Chart)**
+  * **용도**: 시간에 따른 **'추세와 변화'** (예: 월별 매출액 변화, 일별 방문자 수)
+* **바 차트 / 막대 그래프 (Bar Chart)**
+  * **용도**: 여러 항목의 **'수치 크기 비교'** (예: 국가별 사용자 수, A제품과 B제품의 판매량 비교)
+* **도넛 / 파이 차트 (Donut / Pie Chart)**
+  * **용도**: 전체에서 차지하는 **'비율(%)'** (예: 트래픽 유입 경로 비율 - 구글 40%, 네이버 30% 등)
+
+## 🎯 3. 아이콘 시스템 (Icons)
+
+글씨만 빽빽한 화면은 지루합니다. 아이콘을 적절히 써서 직관성을 높이세요.
+
+* **내비게이션 아이콘**: 집 모양(홈), 돋보기(검색), 톱니바퀴(설정), 사람(내 프로필)
+* **피드백 아이콘**: 초록색 체크마크(성공), 빨간색 경고등(에러/위험), 파란색 느낌표(정보 안내)
+* **액션 아이콘**: 쓰레기통(삭제), 연필(수정), 플러스 기호(추가하기), 화살표(이동)
+
+> 💬 **AI 프롬프트 예시:**
+> *"대시보드 화면에 사용자의 월별 접속량을 보여주는 '라인 차트' 컴포넌트를 넣어줘. 그리고 카드 컴포넌트의 우측 상단에는 수정할 수 있는 '연필 아이콘'을 작게 배치해 줘."*
