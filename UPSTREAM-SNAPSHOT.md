@@ -1,12 +1,15 @@
 # Upstream Snapshot — ui-ux-pro-max-skill
 
 - source repo: `https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git`
-- synced commit: `4255c218a6762c945a782701fd38dfb24fc10064`
+- previous synced commit: `4255c218a6762c945a782701fd38dfb24fc10064`
+- current synced commit: `4255c218a6762c945a782701fd38dfb24fc10064`
+- sync mode: `no-change`
+- impact labels: 일반 변경
 - guide repo: `ui-ux-pro-max-skills-guide`
 
 ## 원본 한줄 요약
 
-<p align="center"> <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/releases"><img src="https://img.shields.io/github/v/release/nextlevelbuilder/ui-ux-pro-max-skill?style=for-the-badge&color=blue" alt="GitHub Release"></a> <img src="https://img.shields.io/badge/reasoning_rules-161-green?style=for-the-badge" alt="161 Reasoning Rules">
+An AI skill that provides design intelligence for building professional UI/UX across multiple platforms and frameworks.
 
 ## top-level structure
 
@@ -21,6 +24,10 @@
 - `screenshots/`
 - `skill.json`
 - `src/`
+
+## changed files
+
+- 변경 파일 없음
 
 ## README excerpt
 
@@ -105,4 +112,44 @@ The flagship feature of v2.0 is the **Design System Generator** - an AI-powered 
 |  AVOID (Anti-patterns):                                                                |
 |     Bright neon colors + Harsh animations + Dark mode + AI purple/pink gradients       |
 |                                                                                        |
+|  PRE-DELIVERY CHECKLIST:                                                               |
+|     [ ] No emojis as icons (use SVG: Heroicons/Lucide)                                 |
+|     [ ] cursor-pointer on all clickable elements                                       |
+|     [ ] Hover states with smooth transitions (150-300ms)                               |
+|     [ ] Light mode: text contrast 4.5:1 minimum                                        |
+|     [ ] Focus states visible for keyboard nav                                          |
+|     [ ] prefers-reduced-motion respected                                               |
+|     [ ] Responsive: 375px, 768px, 1024px, 1440px                                       |
+|                                                                                        |
++----------------------------------------------------------------------------------------+
+```
+
+### How Design System Generation Works
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  1. USER REQUEST                                                │
+│     "Build a landing page for my beauty spa"                    │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  2. MULTI-DOMAIN SEARCH (5 parallel searches)                   │
+│     • Product type matching (161 categories)                    │
+│     • Style recommendations (67 styles)                         │
+│     • Color palette selection (161 palettes)                    │
+│     • Landing page patterns (24 patterns)                       │
+│     • Typography pairing (57 font combinations)                 │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────────┐
+│  3. REASONING ENGINE                                            │
+│     • Match product → UI category rules                         │
+│     • Apply style priorities (BM25 ranking)                     │
+│     • Filter anti-patterns for industry                         │
+│     • Process decision rules (JSON conditions)                  │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
 ```
