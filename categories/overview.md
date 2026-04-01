@@ -13,6 +13,15 @@
 - impact labels: 일반 변경
 - 판단: 이번 싸이클에서는 origin 변경이 없어 guide 본문은 유지했고, 동기화 기준점만 재확인했습니다.
 
+## 최근 upstream 커밋
+
+- `4255c21 Merge pull request #209 from nextlevelbuilder/feat/enhancement-issues`
+- `01944c4 merge: resolve conflicts with main branch`
+- `49c9fbe Merge pull request #205 from Krishna-Modi12/feat/threejs-stack`
+- `ddef277 feat(threejs): complete Three.js stack integration`
+- `acc9c74 fix(core): correct threejs STACK_CONFIG format and add missing stacks from main`
+- `0d58617 fix(cli): check dir existence before reporting removal in uninstall`
+
 ## 확인한 원본 구조
 
 - `.claude/`

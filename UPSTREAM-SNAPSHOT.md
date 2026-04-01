@@ -11,6 +11,17 @@
 
 An AI skill that provides design intelligence for building professional UI/UX across multiple platforms and frameworks.
 
+## recent upstream commits
+
+- `4255c21 Merge pull request #209 from nextlevelbuilder/feat/enhancement-issues`
+- `01944c4 merge: resolve conflicts with main branch`
+- `49c9fbe Merge pull request #205 from Krishna-Modi12/feat/threejs-stack`
+- `ddef277 feat(threejs): complete Three.js stack integration`
+- `acc9c74 fix(core): correct threejs STACK_CONFIG format and add missing stacks from main`
+- `0d58617 fix(cli): check dir existence before reporting removal in uninstall`
+- `035df47 fix: address Claude review findings`
+- `c981b92 feat(cli): sync draft and google-fonts data to CLI assets`
+
 ## top-level structure
 
 - `.claude/`
