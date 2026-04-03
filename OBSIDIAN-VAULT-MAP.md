@@ -23,9 +23,10 @@
 | `README.md` | `ui-ux-pro-max skills Guide/ui-ux-pro-max skills Guide - MOC.md` |
 | `01-learning-paths.md` | `ui-ux-pro-max skills Guide/02 Learning Paths.md` |
 | `02-glossary.md` | `ui-ux-pro-max skills Guide/03 Glossary.md` |
+| `sections/01-overview.md` | `ui-ux-pro-max skills Guide/01 Overview.md` |
 | `categories/colors-fonts.md` | `ui-ux-pro-max skills Guide/Categories/Colors fonts.md` |
 | `categories/components.md` | `ui-ux-pro-max skills Guide/Categories/Components.md` |
-| `categories/overview.md` | `ui-ux-pro-max skills Guide/01 Overview.md` |
+| `categories/overview.md` | `ui-ux-pro-max skills Guide/Categories/Overview.md` |
 | `categories/products-landing.md` | `ui-ux-pro-max skills Guide/Categories/Products landing.md` |
 | `categories/ui-styles.md` | `ui-ux-pro-max skills Guide/Categories/Ui styles.md` |
 | `categories/ux-guidelines.md` | `ui-ux-pro-max skills Guide/Categories/Ux guidelines.md` |

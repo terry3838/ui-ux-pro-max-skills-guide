@@ -8,12 +8,13 @@
 1. [[01 Overview]]
 2. [[02 Learning Paths]]
 3. [[03 Glossary]]
-4. [[Categories/Colors fonts]]
-5. [[Categories/Components]]
-6. [[01 Overview]]
-7. [[Categories/Products landing]]
-8. [[Categories/Ui styles]]
-9. [[Categories/Ux guidelines]]
+4. [[01 Overview]]
+5. [[Categories/Colors fonts]]
+6. [[Categories/Components]]
+7. [[Categories/Overview]]
+8. [[Categories/Products landing]]
+9. [[Categories/Ui styles]]
+10. [[Categories/Ux guidelines]]
 
 ## 이유
 

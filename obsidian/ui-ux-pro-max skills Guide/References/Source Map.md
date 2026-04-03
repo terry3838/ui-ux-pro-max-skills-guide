@@ -12,6 +12,7 @@
 - `02-glossary.md`
 - `README.md`
 - `categories`
+- `sections`
 
 ## Repo → note mapping
 
@@ -20,9 +21,10 @@
 | `README.md` | `ui-ux-pro-max skills Guide - MOC.md` |
 | `01-learning-paths.md` | `02 Learning Paths.md` |
 | `02-glossary.md` | `03 Glossary.md` |
+| `sections/01-overview.md` | `01 Overview.md` |
 | `categories/colors-fonts.md` | `Categories/Colors fonts.md` |
 | `categories/components.md` | `Categories/Components.md` |
-| `categories/overview.md` | `01 Overview.md` |
+| `categories/overview.md` | `Categories/Overview.md` |
 | `categories/products-landing.md` | `Categories/Products landing.md` |
 | `categories/ui-styles.md` | `Categories/Ui styles.md` |
 | `categories/ux-guidelines.md` | `Categories/Ux guidelines.md` |
