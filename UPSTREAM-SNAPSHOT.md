@@ -2,9 +2,9 @@
 
 - source repo: `https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git`
 - previous synced commit: `4255c218a6762c945a782701fd38dfb24fc10064`
-- current synced commit: `4255c218a6762c945a782701fd38dfb24fc10064`
-- sync mode: `no-change`
-- impact labels: 일반 변경
+- current synced commit: `b7e3af80f6e331f6fb456667b82b12cade7c9d35`
+- sync mode: `update`
+- impact labels: 소스코드, 테스트/검증
 - guide repo: `ui-ux-pro-max-skills-guide`
 
 ## 원본 한줄 요약
@@ -13,14 +13,10 @@ An AI skill that provides design intelligence for building professional UI/UX ac
 
 ## recent upstream commits
 
-- `4255c21 Merge pull request #209 from nextlevelbuilder/feat/enhancement-issues`
-- `01944c4 merge: resolve conflicts with main branch`
-- `49c9fbe Merge pull request #205 from Krishna-Modi12/feat/threejs-stack`
-- `ddef277 feat(threejs): complete Three.js stack integration`
-- `acc9c74 fix(core): correct threejs STACK_CONFIG format and add missing stacks from main`
-- `0d58617 fix(cli): check dir existence before reporting removal in uninstall`
-- `035df47 fix: address Claude review findings`
-- `c981b92 feat(cli): sync draft and google-fonts data to CLI assets`
+- `b7e3af8 Merge pull request #184 from Jenser77/feat/design-system-visual-improvements`
+- `7faef3e Merge pull request #191 from amyragan3297/amyragan3297-patch-1`
+- `83692f7 Create python-package-conda.yml`
+- `e3102cb Improve design system output with Unicode borders, ANSI color swatches, extended palette, and dark/light mode`
 
 ## top-level structure
 
@@ -38,7 +34,11 @@ An AI skill that provides design intelligence for building professional UI/UX ac
 
 ## changed files
 
-- 변경 파일 없음
+- `.github/workflows/python-package-conda.yml`
+- `cli/assets/scripts/core.py`
+- `cli/assets/scripts/design_system.py`
+- `src/ui-ux-pro-max/scripts/core.py`
+- `src/ui-ux-pro-max/scripts/design_system.py`
 
 ## README excerpt
 

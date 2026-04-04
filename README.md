@@ -166,26 +166,28 @@ UI/UX Pro Max는 단순히 “예쁜 화면을 만들어 달라”고 말하는 
 ## 자동 동기화 상태
 
 - origin repo: `ui-ux-pro-max-skill`
-- latest source commit: `4255c218a676`
-- sync mode: `no-change`
-- 영향 분류: 일반 변경
+- latest source commit: `b7e3af80f6e3`
+- sync mode: `update`
+- 영향 분류: 소스코드, 테스트/검증
 
 ### 이번 반영 포인트
 
-이번 싸이클에서는 origin 변경이 없어 guide 본문은 유지했고, 동기화 기준점만 재확인했습니다.
+origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽고 반영했습니다. 핵심 영향 영역: 소스코드, 테스트/검증.
 
 ### 최근 upstream 커밋
 
-- `4255c21 Merge pull request #209 from nextlevelbuilder/feat/enhancement-issues`
-- `01944c4 merge: resolve conflicts with main branch`
-- `49c9fbe Merge pull request #205 from Krishna-Modi12/feat/threejs-stack`
-- `ddef277 feat(threejs): complete Three.js stack integration`
-- `acc9c74 fix(core): correct threejs STACK_CONFIG format and add missing stacks from main`
-- `0d58617 fix(cli): check dir existence before reporting removal in uninstall`
+- `b7e3af8 Merge pull request #184 from Jenser77/feat/design-system-visual-improvements`
+- `7faef3e Merge pull request #191 from amyragan3297/amyragan3297-patch-1`
+- `83692f7 Create python-package-conda.yml`
+- `e3102cb Improve design system output with Unicode borders, ANSI color swatches, extended palette, and dark/light mode`
 
 ### 변경 파일 샘플
 
-- 이번 싸이클에서는 신규 변경 파일이 없습니다.
+- `.github/workflows/python-package-conda.yml`
+- `cli/assets/scripts/core.py`
+- `cli/assets/scripts/design_system.py`
+- `src/ui-ux-pro-max/scripts/core.py`
+- `src/ui-ux-pro-max/scripts/design_system.py`
 
 > 이 블록은 guide sync가 자동 갱신합니다.
 <!-- GUIDE_SYNC:END -->
